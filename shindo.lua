@@ -133,7 +133,7 @@
 
 
 
-if 0 == 0 do
+while 0 == 0 do
         local args = {
     [1] = "resetmentor",
     [2] = ""
