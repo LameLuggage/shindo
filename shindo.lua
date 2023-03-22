@@ -133,11 +133,16 @@
 
 
 
-while 0 == 0 do
-        local args = {
-    [1] = "resetmentor",
-    [2] = ""
-}
+while 0 == 0 do 
+    wait(0.5)
+    local args = {
+     [1] = "resetmentor",
+        [2] = ""
+    }
 
-game:GetService("Players").LocalPlayer.startevent:FireServer(unpack(args))
+    game:GetService("Players").LocalPlayer.startevent:FireServer(unpack(args))
+    
+    wait(0.5)
+    
+    end
 
